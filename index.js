@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const spec = require('swagger-tools').specs.v2;
 const console = require('console');
