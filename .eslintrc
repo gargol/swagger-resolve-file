@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-param-reassign": 0
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": [
+        "node_modules"
+      ]
+    }
+  }
+}
