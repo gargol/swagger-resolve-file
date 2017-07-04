@@ -1,6 +1,6 @@
 {
   "name": "swagger-resolve-file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI wrapper around swagger-tools (https://github.com/apigee-127/swagger-tools) that resolves  swagger definitions to file",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/gargol"
   },
   "bin": {
-    "swagger-resolve-cli": "./bin/swagger-resolve-cli"
+    "swagger-resolve-file": "./index.js"
   },
   "license": "MIT",
   "bugs": {
